@@ -1,0 +1,200 @@
+*{
+    scroll-behavior: smooth;
+    margin:0;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body{
+    background-image: url(https://k.top4top.io/p_32149hvxm1.jpg);
+    background-position: right top;
+    background-size: cover;
+}
+
+
+.header{
+    background-color: #185375;
+}
+
+.container{
+    margin: auto; /* لن تعمل الا بوجود بروبرتي عرض */
+    max-width: 1100px; 
+}
+
+.header-container{
+    height: 85px;
+    display: flex;
+    justify-content: space-between;  /* في حالتنا هذه الاكس */
+    align-items: center; /*هذان الخياران ضمن العنصر ديسبلاي فليكس */
+}
+
+.planet{
+    height: 70px;
+    position: absolute;
+    right: 27px;
+    top: -34px;
+    z-index: 1;
+}
+
+.stars{
+    height: 105px;
+    position: absolute;
+    left: 125px;
+    top: -50px;
+}
+
+.link{
+    color:#ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.link:hover{
+    color: #000000;
+}
+
+.logo{
+    margin-top: 8px;
+    margin-right: 100px;
+    align-self: flex-start;
+}
+
+img{
+    margin-top: 50px;
+}
+
+.title{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 500%;
+    font-style: normal;
+    color: #185375;
+    transition-duration: 0.4s;
+}
+
+.title:hover{
+    color: #1d90d3;
+    transform: scale(1.5, 1.5);
+}
+
+.subtitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 150%;
+    font-style: normal;  
+ color: #000000;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    margin-top: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-img{
+    margin-top: 50px;
+    height: 700px;
+}
+
+p{ 
+    display: block;
+    color: #000000;
+}
+
+/* a{ 
+    display: inline-block;
+    color: rgb(0, 0, 0);
+} */
+
+b{
+    color:#185375
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card{
+    border: 1px solid #222222;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+}
+
+.card p{
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.card img{
+    transition-duration: 0.2s;
+}
+
+.card img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.contacts{
+    height: 80hv;
+    margin-bottom: 120px;
+}
+
+.contacts h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.links{
+    margin-top: 50px;
+    margin:auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links img{
+    transition-duration: 0.2s;
+}
+
+.links img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.footer{
+    background-color: #185375;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer p{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/* .top{
+    border: #000000;
+    border-radius: 20px;
+    border-style: dotted;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 100px;
+    right: 1%;
+}
+
+.top img{
+    margin:0
+} */
+
